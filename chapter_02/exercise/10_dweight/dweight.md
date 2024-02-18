@@ -1,7 +1,10 @@
+### Question 10
+
 In the dweight.c program (Section 2.4), which spaces are essential?
 
-The space after `#include`, the newline after `<stdio.h>`, the space after `int` and the space after `return` are the only essential spaces in the program.
+### Solution
 
+The space after `#include`, the newline after `<stdio.h>`, the space after `int` and the space after `return` are the essential spaces in the program.
 
 ```c
 #include <stdio.h>

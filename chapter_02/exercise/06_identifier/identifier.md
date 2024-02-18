@@ -1,7 +1,8 @@
-Why is it not a good idea for an identifier to contain more than one adjacent underscore (as
-in `current___balance`, for example)?
+### Question 6
 
-It’s generally not recommended to use identifiers with more than one adjacent underscore for a few reasons:
+Why is it not a good idea for an identifier to contain more than one adjacent underscore (as in `current___balance`, for example)?
+
+### Solution
 
 **Readability**  
 Multiple adjacent underscores can make an identifier harder to read and understand  

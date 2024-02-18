@@ -1,3 +1,5 @@
+### Question 2
+
 Consider the following program:
 
 ```c
@@ -12,13 +14,19 @@ int main(void)
 }
 ```
 
-i. Identify the directives and statements in this program  
+(a) Identify the directives and statements in this program  
+(b) What output does the program produce?
 
-> Directives: `include`  
-> Statements: `printf` & `return`
+### Solution
 
-ii. What output does the program produce?
+(a)  
+The program contains 1 directive and 4 statements (3 `printf` and 1 `return`)  
+**Directives**: `include`  
+**Statements**: `printf` & `return`
 
-> Parkinson's Law:
-> Work expands so as to fill the time
-> available for its completion.
+(b)
+```
+Parkinson's Law:
+Work expands so as to fill the time
+available for its completion.
+```
