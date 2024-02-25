@@ -12,3 +12,5 @@ The compiler has been set to run the `C89` standard unless otherwise noted:
 ```bash
 gcc -O -Wall -W -pedantic -std=c89 -o filename.o filename.c
 ```
+
+I welcome your feedback and encourage contributes to fix any mistakes in my solutions
