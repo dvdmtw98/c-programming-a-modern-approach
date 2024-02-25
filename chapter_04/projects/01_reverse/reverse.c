@@ -10,13 +10,11 @@ Hint: If n is an integer, then n % 10 is the last digit in n and n / 10 is n wit
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int num, units_digit, tens_digit;
 
     printf("Enter a two-digit number: ");
-    if (scanf("%2d", &num) != 1)
-    {
+    if (scanf("%2d", &num) != 1) {
         printf("Failed to read input");
         return 1;
     }

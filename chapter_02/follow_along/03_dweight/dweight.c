@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int length, width, height, volume, weight;
 
     printf("Enter length of box: ");

@@ -6,13 +6,11 @@ Hint: See the upc.c program of Section 4.1.
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int hundreds, tens, units;
 
     printf("Enter a three-digit number: ");
-    if (scanf("%1d%1d%1d", &hundreds, &tens, &units) != 3)
-    {
+    if (scanf("%1d%1d%1d", &hundreds, &tens, &units) != 3) {
         printf("Failed to read input");
         return 1;
     }

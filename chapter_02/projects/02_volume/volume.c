@@ -9,8 +9,7 @@ Hint: C doesn’t have an exponentiation operator, so you’ll need to multiply 
 
 #define PI 3.14159265358979323846
 
-int main(void)
-{
+int main(void) {
     float radius = 10, volume;
 
     volume = (4.0f / 3.0f) * PI * radius * radius * radius;

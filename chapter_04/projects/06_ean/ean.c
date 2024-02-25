@@ -15,15 +15,13 @@ Check digit: 8
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12,
         first_sum, second_sum, total;
 
     printf("Enter the first 12 digits of an EAP: ");
     if (scanf("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d",
-              &n1, &n2, &n3, &n4, &n5, &n6, &n7, &n8, &n9, &n10, &n11, &n12) != 12)
-    {
+              &n1, &n2, &n3, &n4, &n5, &n6, &n7, &n8, &n9, &n10, &n11, &n12) != 12) {
         printf("Failed to read EAN");
         return 1;
     }

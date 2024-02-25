@@ -4,20 +4,17 @@ Show how to modify the addfrac.c program of Section 3.2 so that the user is allo
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int num1, denom1, num2, denom2, result_num, result_denom;
 
     printf("Enter first fraction: ");
-    if (scanf("%d /%d", &num1, &denom1) != 2) /* "%d/%d" was changed to "%d /%d" */
-    {
+    if (scanf("%d /%d", &num1, &denom1) != 2) { /* "%d/%d" was changed to "%d /%d" */
         printf("Failed to read fraction");
         return 1;
     }
 
     printf("Enter second fraction: ");
-    if (scanf("%d /%d", &num2, &denom2) != 2) /* "%d/%d" was changed to "%d /%d" */
-    {
+    if (scanf("%d /%d", &num2, &denom2) != 2) { /* "%d/%d" was changed to "%d /%d" */
         printf("Failed to read fraction");
         return 1;
     }

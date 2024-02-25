@@ -13,13 +13,11 @@ Note: The number of digits in each group may vary; you can’t assume that group
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int gs1_prefix, group_identifier, publisher_code, item_number, check_digit;
 
     printf("Enter ISBN: ");
-    if (scanf("%d-%d-%d-%d-%d", &gs1_prefix, &group_identifier, &publisher_code, &item_number, &check_digit) != 5)
-    {
+    if (scanf("%d-%d-%d-%d-%d", &gs1_prefix, &group_identifier, &publisher_code, &item_number, &check_digit) != 5) {
         printf("Failed to read ISBN");
         return 1;
     }

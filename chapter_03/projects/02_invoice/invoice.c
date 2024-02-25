@@ -15,28 +15,24 @@ Allow dollar amounts up to $9999.99. Hint: Use tabs to line up the columns.
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int item_id, month, date, year;
     float price;
 
     printf("Enter item number: ");
-    if (scanf("%d", &item_id) != 1)
-    {
+    if (scanf("%d", &item_id) != 1) {
         printf("Failed to read item number");
         return 1;
     }
 
     printf("Enter item price: ");
-    if (scanf("%f", &price) != 1)
-    {
+    if (scanf("%f", &price) != 1) {
         printf("Failed to read item price");
         return 1;
     }
 
     printf("Enter purchase date (mm/dd/yyyy): ");
-    if (scanf("%d/%d/%d", &month, &date, &year) != 3)
-    {
+    if (scanf("%d/%d/%d", &month, &date, &year) != 3) {
         printf("Failed to read purchase date");
         return 1;
     }

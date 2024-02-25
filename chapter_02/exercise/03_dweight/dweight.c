@@ -6,8 +6,7 @@ Condense the dweight.c program by
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int length = 12, width = 10, height = 8, volume;
 
     volume = length * width * height;

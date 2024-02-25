@@ -1,6 +1,6 @@
 ## C Programming: A Modern Approach - Solutions
 
-My solutions to the Exercise and Projects from K. N. King's "C Programming: A Modern Approach", 2nd Edition
+My solutions to the Exercises and Projects from K. N. King's "C Programming: A Modern Approach", 2nd Edition
 
 <img src="cover.jpg" width="280"/>
 

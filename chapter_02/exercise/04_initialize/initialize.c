@@ -4,8 +4,7 @@ Write a program that declares several int and float variables—without initiali
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int num1, num2, num3, num4;
     float num5, num6, num7, num8;
 

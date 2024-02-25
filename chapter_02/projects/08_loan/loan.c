@@ -17,27 +17,23 @@ interest rate. To find the monthly interest rate, convert the interest rate ente
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     float loan, interest, payment, monthly_interest;
 
     printf("Enter amount of loan: ");
-    if (scanf("%f", &loan) != 1)
-    {
+    if (scanf("%f", &loan) != 1) {
         printf("Failed to initialize loan");
         return 1;
     }
 
     printf("Enter interest rate: ");
-    if (scanf("%f", &interest) != 1)
-    {
+    if (scanf("%f", &interest) != 1) {
         printf("Failed to initialize interest");
         return 1;
     }
 
     printf("Enter monthly payment: ");
-    if (scanf("%f", &payment) != 1)
-    {
+    if (scanf("%f", &payment) != 1) {
         printf("Failed to initialize monthly payment");
         return 1;
     }

@@ -7,13 +7,11 @@ You entered 404.817.6900
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int area_code, telephone_prefix, line_number;
 
     printf("Enter phone number [(xxx) xxx-xxxx]: ");
-    if (scanf("(%d) %d-%d", &area_code, &telephone_prefix, &line_number) != 3)
-    {
+    if (scanf("(%d) %d-%d", &area_code, &telephone_prefix, &line_number) != 3) {
         printf("Failed to read phone number");
         return 1;
     }

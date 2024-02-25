@@ -8,13 +8,11 @@ With tax added: $105.00
 
 #define TAX_VALUE 5.0f
 
-int main(void)
-{
+int main(void) {
     float original_amount, taxed_amount;
 
     printf("Enter an amount: ");
-    if (scanf("%f", &original_amount) != 1)
-    {
+    if (scanf("%f", &original_amount) != 1) {
         printf("Failed to initialize amount");
         return 1;
     }

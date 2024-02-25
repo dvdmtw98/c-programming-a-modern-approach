@@ -13,8 +13,7 @@ Do you get a warning message from the compiler? If so, what's needed to make it 
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     printf("Hello, World\n");
 }
 

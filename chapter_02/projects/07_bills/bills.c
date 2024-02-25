@@ -15,13 +15,11 @@ integer values throughout, not floating-point numbers.
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int amount, bills_20, bills_10, bills_5;
 
     printf("Enter a dollar amount: ");
-    if (scanf("%d", &amount) != 1)
-    {
+    if (scanf("%d", &amount) != 1) {
         printf("Failed to initialize value of amount");
         return 1;
     }

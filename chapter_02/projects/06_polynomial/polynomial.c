@@ -8,13 +8,11 @@ polynomials is known as Horner’s Rule.
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int x, result;
 
     printf("Enter value for x (integer): ");
-    if (scanf("%d", &x) != 1)
-    {
+    if (scanf("%d", &x) != 1) {
         printf("Failed to initialize x");
         return 1;
     }

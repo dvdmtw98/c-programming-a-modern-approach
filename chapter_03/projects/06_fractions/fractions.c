@@ -7,13 +7,11 @@ The sum is 38/24
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int num1, denom1, num2, denom2, result_num, result_denom;
 
     printf("Enter two fractions separated by a plus sign: ");
-    if (scanf("%d /%d + %d /%d", &num1, &denom1, &num2, &denom2) != 4)
-    {
+    if (scanf("%d /%d + %d /%d", &num1, &denom1, &num2, &denom2) != 4) {
         printf("Failed to read fractions");
         return 1;
     }

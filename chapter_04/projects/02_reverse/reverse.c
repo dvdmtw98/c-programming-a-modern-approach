@@ -4,13 +4,11 @@ Extend the program in Programming Project 1 to handle three-digit numbers.
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int num, units_digit, tens_digit;
 
     printf("Enter a three-digit number: ");
-    if (scanf("%3d", &num) != 1)
-    {
+    if (scanf("%3d", &num) != 1) {
         printf("Failed to read input");
         return 1;
     }

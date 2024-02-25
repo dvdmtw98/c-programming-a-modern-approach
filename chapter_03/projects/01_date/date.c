@@ -7,13 +7,11 @@ You entered the date 20110217
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int date, month, year;
 
     printf("Enter a date (mm/dd/yyyy): ");
-    if (scanf("%d/%d/%d", &month, &date, &year) != 3)
-    {
+    if (scanf("%d/%d/%d", &month, &date, &year) != 3) {
         printf("Failed to read input");
         return 1;
     }

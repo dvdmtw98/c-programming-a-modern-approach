@@ -18,8 +18,7 @@ If the row, column, and diagonal sums are all the same (as they are in this exam
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int num1, num2, num3, num4, num5, num6, num7, num8,
         num9, num10, num11, num12, num13, num14, num15, num16,
         row1_sum, row2_sum, row3_sum, row4_sum,
@@ -30,8 +29,7 @@ int main(void)
     if (scanf(
             "%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d",
             &num1, &num2, &num3, &num4, &num5, &num6, &num7, &num8,
-            &num9, &num10, &num11, &num12, &num13, &num14, &num15, &num16) != 16)
-    {
+            &num9, &num10, &num11, &num12, &num13, &num14, &num15, &num16) != 16) {
         printf("Failed to read 16 numbers");
         return 1;
     }

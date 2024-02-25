@@ -11,13 +11,11 @@ Hint: To convert the number to octal, first divide it by 8; the remainder is the
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void) {
     int num, digit1, digit2, digit3, digit4, digit5;
 
     printf("Enter a number between 0 and 32767: ");
-    if (scanf("%5d", &num) != 1)
-    {
+    if (scanf("%5d", &num) != 1) {
         printf("Failed to read input");
         return 1;
     }

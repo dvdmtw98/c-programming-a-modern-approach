@@ -6,13 +6,11 @@ Modify the program of Programming Project 2 so that it prompts the user to enter
 
 #define PI 3.14159265358979323846
 
-int main(void)
-{
+int main(void) {
     float radius, volume;
 
     printf("Enter radius of sphere (in meters): ");
-    if (scanf("%f", &radius) != 1)
-    {
+    if (scanf("%f", &radius) != 1) {
         printf("Failed to initialize radius");
         return 1;
     }
