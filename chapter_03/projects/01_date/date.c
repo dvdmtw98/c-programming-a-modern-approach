@@ -12,7 +12,7 @@ int main(void) {
 
     printf("Enter a date (mm/dd/yyyy): ");
     if (scanf("%d/%d/%d", &month, &date, &year) != 3) {
-        printf("Failed to read input");
+        printf("Failed to read input\n");
         return 1;
     }
 

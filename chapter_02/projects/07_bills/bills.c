@@ -20,7 +20,7 @@ int main(void) {
 
     printf("Enter a dollar amount: ");
     if (scanf("%d", &amount) != 1) {
-        printf("Failed to initialize value of amount");
+        printf("Failed to initialize value of amount\n");
         return 1;
     }
 

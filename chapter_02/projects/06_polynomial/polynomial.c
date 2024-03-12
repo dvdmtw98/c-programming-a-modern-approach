@@ -13,7 +13,7 @@ int main(void) {
 
     printf("Enter value for x (integer): ");
     if (scanf("%d", &x) != 1) {
-        printf("Failed to initialize x");
+        printf("Failed to initialize x\n");
         return 1;
     }
 

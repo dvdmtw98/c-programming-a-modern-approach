@@ -11,7 +11,7 @@ int main(void) {
 
     printf("Enter radius of sphere (in meters): ");
     if (scanf("%f", &radius) != 1) {
-        printf("Failed to initialize radius");
+        printf("Failed to initialize radius\n");
         return 1;
     }
 

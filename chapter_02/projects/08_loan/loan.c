@@ -22,19 +22,19 @@ int main(void) {
 
     printf("Enter amount of loan: ");
     if (scanf("%f", &loan) != 1) {
-        printf("Failed to initialize loan");
+        printf("Failed to initialize loan\n");
         return 1;
     }
 
     printf("Enter interest rate: ");
     if (scanf("%f", &interest) != 1) {
-        printf("Failed to initialize interest");
+        printf("Failed to initialize interest\n");
         return 1;
     }
 
     printf("Enter monthly payment: ");
     if (scanf("%f", &payment) != 1) {
-        printf("Failed to initialize monthly payment");
+        printf("Failed to initialize monthly payment\n");
         return 1;
     }
 

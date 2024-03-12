@@ -16,7 +16,7 @@ int main(void) {
 
     printf("Enter a number between 0 and 32767: ");
     if (scanf("%5d", &num) != 1) {
-        printf("Failed to read input");
+        printf("Failed to read input\n");
         return 1;
     }
 

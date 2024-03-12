@@ -13,7 +13,7 @@ int main(void) {
 
     printf("Enter a 24-hour time: ");
     if (scanf("%2d:%2d", &hour, &minute) != 2) {
-        printf("Failed to read time");
+        printf("Failed to read time\n");
         return 1;
     }
 

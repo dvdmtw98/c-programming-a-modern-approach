@@ -12,7 +12,7 @@ int main(void) {
 
     printf("Enter two fractions separated by a plus sign: ");
     if (scanf("%d /%d + %d /%d", &num1, &denom1, &num2, &denom2) != 4) {
-        printf("Failed to read fractions");
+        printf("Failed to read fractions\n");
         return 1;
     }
 

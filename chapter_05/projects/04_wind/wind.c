@@ -19,7 +19,7 @@ int main(void) {
 
     printf("Enter wind speed (in knots): ");
     if (scanf("%d", &speed) != 1) {
-        printf("Failed to read wind speed");
+        printf("Failed to read wind speed\n");
         return 1;
     }
 

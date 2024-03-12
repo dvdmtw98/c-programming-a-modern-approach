@@ -13,25 +13,25 @@ int main(void) {
 
     printf("Enter the first (single) digit: ");
     if (scanf("%1d", &d) != 1) {
-        printf("Failed to read first (single) digit");
+        printf("Failed to read first (single) digit\n");
         return 1;
     }
 
     printf("Enter first group of five digits: ");
     if (scanf("%1d%1d%1d%1d%1d", &i1, &i2, &i3, &i4, &i5) != 5) {
-        printf("Failed to read the first group of five digits");
+        printf("Failed to read the first group of five digits\n");
         return 1;
     }
 
     printf("Enter second group of five digits: ");
     if (scanf("%1d%1d%1d%1d%1d", &j1, &j2, &j3, &j4, &j5) != 5) {
-        printf("Failed to read the second group of five digits");
+        printf("Failed to read the second group of five digits\n");
         return 1;
     }
 
     printf("Enter the last (single) digit: ");
     if (scanf("%1d", &check) != 1) {
-        printf("Failed to read the last (single) digit");
+        printf("Failed to read the last (single) digit\n");
         return 1;
     }
 

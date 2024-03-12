@@ -12,7 +12,7 @@ int main(void) {
 
     printf("Enter phone number [(xxx) xxx-xxxx]: ");
     if (scanf("(%d) %d-%d", &area_code, &telephone_prefix, &line_number) != 3) {
-        printf("Failed to read phone number");
+        printf("Failed to read phone number\n");
         return 1;
     }
 

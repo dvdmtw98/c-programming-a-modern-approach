@@ -22,7 +22,7 @@ int main(void) {
     printf("Enter the first 12 digits of an EAP: ");
     if (scanf("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d",
               &n1, &n2, &n3, &n4, &n5, &n6, &n7, &n8, &n9, &n10, &n11, &n12) != 12) {
-        printf("Failed to read EAN");
+        printf("Failed to read EAN\n");
         return 1;
     }
 

@@ -18,7 +18,7 @@ int main(void) {
 
     printf("Enter ISBN: ");
     if (scanf("%d-%d-%d-%d-%d", &gs1_prefix, &group_identifier, &publisher_code, &item_number, &check_digit) != 5) {
-        printf("Failed to read ISBN");
+        printf("Failed to read ISBN\n");
         return 1;
     }
 

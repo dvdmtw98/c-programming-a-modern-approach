@@ -21,19 +21,19 @@ int main(void) {
 
     printf("Enter item number: ");
     if (scanf("%d", &item_id) != 1) {
-        printf("Failed to read item number");
+        printf("Failed to read item number\n");
         return 1;
     }
 
     printf("Enter item price: ");
     if (scanf("%f", &price) != 1) {
-        printf("Failed to read item price");
+        printf("Failed to read item price\n");
         return 1;
     }
 
     printf("Enter purchase date (mm/dd/yyyy): ");
     if (scanf("%d/%d/%d", &month, &date, &year) != 3) {
-        printf("Failed to read purchase date");
+        printf("Failed to read purchase date\n");
         return 1;
     }
 

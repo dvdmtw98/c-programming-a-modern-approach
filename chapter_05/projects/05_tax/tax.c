@@ -19,7 +19,7 @@ int main(void) {
 
     printf("Enter taxable income: ");
     if (scanf("%f", &income) != 1) {
-        printf("Failed to read income");
+        printf("Failed to read income\n");
         return 1;
     }
 

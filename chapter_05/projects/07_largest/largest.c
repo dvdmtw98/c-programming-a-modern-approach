@@ -16,7 +16,7 @@ int main(void) {
 
     printf("Enter four integers: ");
     if (scanf("%d %d %d %d", &num1, &num2, &num3, &num4) != 4) {
-        printf("Failed to read the (four) numbers");
+        printf("Failed to read the (four) numbers\n");
         return 1;
     }
 

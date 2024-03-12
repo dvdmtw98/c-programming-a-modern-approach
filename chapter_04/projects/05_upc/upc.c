@@ -15,7 +15,7 @@ int main(void) {
 
     printf("Enter the first 11 digits of a UPC: ");
     if (scanf("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d", &d, &i1, &i2, &i3, &i4, &i5, &j1, &j2, &j3, &j4, &j5) != 11) {
-        printf("Failed to read UPC");
+        printf("Failed to read UPC\n");
         return 1;
     }
 

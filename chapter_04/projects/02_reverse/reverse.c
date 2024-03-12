@@ -9,7 +9,7 @@ int main(void) {
 
     printf("Enter a three-digit number: ");
     if (scanf("%3d", &num) != 1) {
-        printf("Failed to read input");
+        printf("Failed to read input\n");
         return 1;
     }
 

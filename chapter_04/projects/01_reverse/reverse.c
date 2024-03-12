@@ -15,7 +15,7 @@ int main(void) {
 
     printf("Enter a two-digit number: ");
     if (scanf("%2d", &num) != 1) {
-        printf("Failed to read input");
+        printf("Failed to read input\n");
         return 1;
     }
 
