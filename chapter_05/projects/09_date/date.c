@@ -25,9 +25,11 @@ int main(void) {
         return 1;
     }
 
-    // -1: Date 2 is larger
-    // 0: Dates are equal
-    // 1: Date 1 is larger
+    /*
+    -1: Date 2 is larger
+    0: Dates are equal
+    1: Date 1 is larger
+    */
 
     if (year1 > year2) {
         date_type = 1;

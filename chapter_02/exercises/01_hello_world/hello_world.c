@@ -17,4 +17,4 @@ int main(void) {
     printf("Hello, World\n");
 }
 
-// Warning: Need to add return statement
+/* Warning: Need to add return statement */
